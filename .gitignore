@@ -1,0 +1,27 @@
+# Data
+data/
+
+# Images containing sensitive Information
+images-sensitive/
+
+# Jupyter-Notebooks & python-Scripts (for now)
+code/   
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Mac
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints
+.python-version
