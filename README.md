@@ -1,7 +1,7 @@
-# battery pickups 
+# Battery Pickups 
 >**Note:**
-Redacted version of our delivery repo (December of 2022) for a german battery collecting company.   
-You can watch [our presentation](https://www.youtube.com/watch?v=ODgKSD7HrL4&list=PLSizAuhe-ZaPGwjn6q2gOgc8L1p7BKgWF&index=22&pp=iAQB) on our project (ca. 10 min).  
+Redacted version of our proprietary delivery repo (December of 2022) for a german battery collecting company.   
+You can watch [our presentation](https://www.youtube.com/watch?v=ODgKSD7HrL4&list=PLSizAuhe-ZaPGwjn6q2gOgc8L1p7BKgWF&index=22&pp=iAQB) of our capstone project (ca. 10 min).  
 Our Dashboard is not contained in this repository.
 
 # The project summary
@@ -42,27 +42,27 @@ pip install -r requirements.txt
 # Code
 It is important to run all notebooks in order of the file name prefix starting with 00_.
 
-## [Data cleaning and geocoding](python/00_base_cleaning_and_geocoding.ipynb)
+## [Data cleaning and geocoding](/code_redacted/00_base_cleaning_and_geocoding.ipynb)
 
 This is a Jupyter notebook in which basic data cleaning and geocoding for the collection points are done. The data used in this notebook is the original excel data GRS Service GmbH provided us exported as csv file.
 
-## [Data Cleaning](python/01_data_cleaning.ipynb)
+## [Data Cleaning](/code_redacted/01_data_cleaning.ipynb)
 
 This is a Jupyter notebook in which we dealed with missing values, duplicates, data types, transformation of data and dealing with outliers.
 
-## [Prediction](python/02_prediction_db.ipynb)
+## [Prediction](/code_redacted/02_prediction_db.ipynb)
 
 This is a Jupyter notebook in which we dealt with reading data and selecting columns, plausibility checks, prepare data frame for later calculations, calculate mean weights of container-types from data, calculate the day when a collection point's containers are full, create a list of data frames for each collection point, automated predictions for all collection_points, store results into DB, diagrams and some tests.
 
-## [Prediction accuracy](python/03_prediction_accuracy.ipynb)
+## [Prediction accuracy](/code_redacted/03_prediction_accuracy.ipynb)
 
 This is a Jupyter notebook in which a prediction of chosen features can be done. After the prediction the accuracy can be calculated.
 
-## [Testing](python/04_testing.ipynb)
+## [Testing](/code_redacted/04_testing.ipynb)
 
 This is a Jupyter notebook in which testing of plausibility filtering and splitting, filtering of single pick-ups and single initial deliveries are done.
 
-## [Create Status Table](python/05_create_status_table.ipynb)
+## [Create Status Table](/code_redacted/05_create_status_table.ipynb)
 
 In this Jupyter notebook a table is created (code for storing in a mysql and excel file is provided) that provides more detail statistics about battery collection for each collection point:
 
@@ -78,10 +78,10 @@ In this Jupyter notebook a table is created (code for storing in a mysql and exc
 
 ## Python modules
 
-### [geocode.py](python/geocode.py)
+### [geocode.py](/code_redacted/geocode.py)
 
 Python module for retrieving lat/long data from Google API.
 
-### [prediction.py](python/prediction.py)
+### [prediction.py](/code_redacted/prediction.py)
 
 The main python module including the core prediction code.
