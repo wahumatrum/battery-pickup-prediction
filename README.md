@@ -1,6 +1,6 @@
 # battery pickups 
 >**Note:**
-Redacted version for public use of our delivery repo for a german battery collecting company.   
+Redacted version of our delivery repo (December of 2022) for a german battery collecting company.   
 You can watch [our presentation](https://www.youtube.com/watch?v=ODgKSD7HrL4&list=PLSizAuhe-ZaPGwjn6q2gOgc8L1p7BKgWF&index=22&pp=iAQB) on our project (ca. 10 min).  
 Our Dashboard is not contained in this repository.
 
